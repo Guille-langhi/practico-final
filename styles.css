@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0%;
+    font-family: roboto, sans-serif;
+    background-color: antiquewhite;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+h2 {
+    font-size: 2.7em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.25em;
+}
+
+button {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 18px black;
+    color: rgb(148, 143, 143);
+    background-color: rgb(117, 5, 5);
+}
+
+button:hover {
+    background-color: rgb(76, 24, 124);
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+header {
+    background-color: rgb(245, 245, 245);
+}
+
+header .logo {
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 1.6em;
+}
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a {
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header .inscribite {
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(235, 10, 10);
+}
+
+header a:hover {
+    color: blueviolet;
+}
+
+#first-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(media/prog.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#first-card h1{
+    color: white;
+}
+
+#first-card button{
+    font-size: 1.75em;
+}
+
+
+@media (min-width: 720px){
+
+    header{
+        position: fixed;
+        width: 100%;
+    }
+
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0%;
+        padding-right: 20px;
+    }
+}
+
+#hero h1 {
+    font-size: 5em;
+}
