@@ -35,7 +35,7 @@ button {
     border-radius: 5px;
     border: 1px solid black;
     box-shadow: 2px 2px 18px black;
-    color: rgb(148, 143, 143);
+    color: rgb(247, 235, 214);
     background-color: rgb(117, 5, 5);
 }
 
@@ -49,14 +49,14 @@ button:hover {
 }
 
 header {
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(199, 211, 228);
 }
 
 header .logo {
     margin: 0;
     padding: 25px 30px;
     font-weight: bold;
-    color: blueviolet;
+    color: rgb(42, 40, 161);
     font-size: 1.6em;
 }
 
@@ -104,7 +104,7 @@ header a:hover {
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url(media/prog.jpg);
+    ,url(media/first-card1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
