@@ -62,43 +62,9 @@ header {
     background-color: rgb(199, 211, 228);
 }
 
-header .logo {
-    margin: 0;
-    padding: 25px 30px;
-    font-weight: bold;
-    color: rgb(42, 40, 161);
-    font-size: 1.6em;
-}
-
-header .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-header nav {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding-bottom: 25px;
-}
-
-header a {
-    padding: 5px 12px;
-    text-decoration: none;
-    font-weight: bold;
-    color: black;
-}
-
-header .inscribite {
-    padding: 5px 12px;
-    text-decoration: none;
-    font-weight: bold;
-    color: rgb(235, 10, 10);
-}
-
-header a:hover {
-    color: blueviolet;
+.nav-pills .nav-link.active,
+.show>.nav-pills .nav-link{
+    background: rgb(117, 5, 5) !important
 }
 
 #first-card {
@@ -136,6 +102,15 @@ header a:hover {
 #nuestros-programas{
     background-color: rgb(30, 30, 30);
     color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(media/first-card1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 #nuestros-programas .container {
@@ -145,6 +120,7 @@ header a:hover {
 #nuestros-programas h2 {
     margin-top: 0;
     font-size: 3.5em;
+    color: aquamarine;
 }
 
 #nuestros-programas p{
@@ -162,8 +138,8 @@ header a:hover {
 .card:first-child{
     background-image: linear-gradient(
         0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
+        rgba(245, 243, 243, 0),
+        rgb(244, 244, 247)
     )
     ,url(media/front.jpg);
 }
@@ -171,8 +147,8 @@ header a:hover {
 .card:nth-child(2){
     background-image: linear-gradient(
         0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
+        rgba(245, 243, 243, 0),
+        rgb(244, 244, 247)
     )
     ,url(media/fullstack.jpg);
 }
@@ -180,10 +156,26 @@ header a:hover {
 .card:nth-child(3){
     background-image: linear-gradient(
         0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
+        rgba(245, 243, 243, 0),
+        rgb(244, 244, 247)
     )
     ,url(media/Python.jpg);
+}
+
+.card:first-child h3 {
+    color: rgb(27, 1, 68);
+}
+
+.card:nth-child(2) h3 {
+    color: rgb(1, 68, 68);
+}
+
+.card:nth-child(3) h3 {
+    color: rgb(68, 1, 18);
+}
+
+.card p {
+    color: rgb(11, 12, 12);
 }
 
 #caracteristicas .container{
@@ -300,15 +292,15 @@ footer .container{
     background-size: 100% 150px;
     background-repeat: no-repeat;
     background-position: 0;
-    background-color: rgb(50, 50, 50, 0.5);
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    background-color: rgba(255, 255, 255, 0.267);
+    box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.267);
 }
 
 .card:first-child{
     background-image: linear-gradient(
         0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
+        rgba(245, 243, 243, 0),
+        rgb(244, 244, 247)
     )
     ,url(media/front.jpg);
 }
@@ -316,8 +308,8 @@ footer .container{
 .card:nth-child(2){
     background-image: linear-gradient(
         0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
+        rgba(245, 243, 243, 0),
+        rgb(244, 244, 247)
     )
     ,url(media/fullstack.jpg);
 }
@@ -325,8 +317,8 @@ footer .container{
 .card:nth-child(3){
     background-image: linear-gradient(
         0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
+        rgba(245, 243, 243, 0),
+        rgb(244, 244, 247)
     )
     ,url(media/Python.jpg);
 }

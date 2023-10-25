@@ -9,15 +9,22 @@
 </head>
 <body>
     <header>
-        <div class="container">
-            <p class="logo">Programación Final</p>
-            <nav>
-                <a href="index.html">Inicio</a>
-                <a href="#nosotros">Sobre Nosotros</a>
-                <a href="#nuestros-programas">Nuestros Programas</a>
-                <a class="inscribite" href="formulario.html">INSCRIBITE YA!</a>
-            </nav>
-        </div>
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="formulario.html">INSCRIBITE</a>
+            </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Programas</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#nuestros-programas">Front End</a></li>
+                <li><a class="dropdown-item" href="#nuestros-programas">Full Stack</a></li>
+                <li><a class="dropdown-item" href="#nuestros-programas">Python</a></li>
+            </ul>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#nosotros">Nosotros</a>
+            </li>
+        </ul>
     </header>
 
     <section id="first-card">
