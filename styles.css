@@ -292,8 +292,7 @@ footer .container{
     background-size: 100% 150px;
     background-repeat: no-repeat;
     background-position: 0;
-    background-color: rgba(255, 255, 255, 0.267);
-    box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.267);
+
 }
 
 .card:first-child{
@@ -301,7 +300,7 @@ footer .container{
         0deg,
         rgba(245, 243, 243, 0),
         rgb(244, 244, 247)
-    )
+        )
     ,url(media/front.jpg);
 }
 
@@ -331,11 +330,43 @@ footer .container{
 }
 
 #caracteristicas .container{
-    text-align: initial;
+    text-align: center;
 }
 
 #caracteristicas .ul{
     margin-left: 180px;
+}
+
+#caracteristicas .online {
+    font-size: 45px;
+    text-decoration: underline;
+    text-decoration-color: orange;
+    font-style: italic;
+    color: blue;
+}
+
+#caracteristicas .tiempo {
+    font-size: 45px;
+    text-decoration: underline;
+    text-decoration-color: red;
+    font-style: italic;
+    color: blue;
+}
+
+#caracteristicas .soporte {
+    font-size: 45px;
+    text-decoration: underline;
+    text-decoration-color: black;
+    font-style: italic;
+    color: blue;
+}
+
+#caracteristicas .dinero {
+    font-size: 45px;
+    text-decoration: underline;
+    text-decoration-color: green;
+    font-style: italic;
+    color: blue;
 }
 
 
