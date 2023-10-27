@@ -292,33 +292,22 @@ header {
     font-size: 5vh;
 }
 
-footer {
-    padding: 10px;
-    text-align: center;
-    font-size: 17px;
-    color: #666;
+footer{
+    background-color: gray;
 }
 
-footer {
-    background-color: #333;
+footer p{
+    margin: 0%;
+    padding: 12px;
+    color: blanchedalmond;
 }
 
-.ul1{
-    margin:0;
-    padding: 0;
-    list-style:none;
-    padding-right:10px;
-}
-
-
-.ul1{
+footer .container{
+    height: 150px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: flex-end;
 }
-a{
-    color:aquamarine
-}
-
 @media (min-width: 720px){
 
     header{
