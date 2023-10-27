@@ -207,22 +207,35 @@ header {
     font-size: 5vh;
 }
 
-footer{
-    background-color: gray;
+  /*footer */
+
+footer {
+    padding: 10px;
+    text-align: center;
+    font-size: 17px;
+    color: #666;
+  }
+  
+  footer {
+    background-color: #333;
+  }
+
+  .ul1{
+    margin:0;
+    padding: 0;
+    list-style:none;
+    padding-right:10px;
 }
 
-footer p{
-    margin: 0%;
-    padding: 12px;
-    color: blanchedalmond;
-}
-
-footer .container{
-    height: 150px;
+.ul1{
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    justify-content: space-between;
 }
+  a{
+    color:aquamarine
+  }
+
+
 @media (min-width: 720px){
 
     header{
