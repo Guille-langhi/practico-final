@@ -9,7 +9,7 @@ html{
 body {
     margin: 0%;
     font-family: roboto, sans-serif;
-    background-color: antiquewhite;
+    background-color: rgb(248, 248, 248);
 }
 
 h1 {
@@ -59,12 +59,16 @@ button:hover {
 .color-acento{ color: rgb(42, 40, 161);}
 
 header {
-    background-color: rgb(199, 211, 228);
+    background-color:grey;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
-
+.nav-link{
+    color: white;
+}
 .nav-pills .nav-link.active,
-.show>.nav-pills .nav-link{
-    background: rgb(117, 5, 5) !important
+.show>.nav-pills{
+    background: rgb(173, 73, 73) !important
 }
 
 #first-card {
@@ -87,7 +91,7 @@ header {
 }
 
 #first-card h1{
-    color: antiquewhite;
+    color: rgb(255, 251, 245);
 }
 
 #first-card button{
@@ -96,17 +100,8 @@ header {
 
 
 #nosotros{
-    background-color: antiquewhite;
+    background-color: white  !important;
     color: white;
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url(media/nosotros.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
 }
 
 #nosotros .container {
@@ -116,49 +111,31 @@ header {
 #nosotros h2 {
     margin-top: 0;
     font-size: 3.5em;
-    color: antiquewhite;
+    color: rgb(17, 17, 17);
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: underline;
 }
 
-#nosotros p{
-    display: none;
-}
-
 #nosotros .cardnos {
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     padding: 50px;
     margin: 20px;
     border-radius: 20px;
 }
 
-.cardnos:first-child{
+.cardnos{
+    background-color: antiquewhite;
     background-image: linear-gradient(
         0deg,
         rgba(245, 243, 243, 0),
         rgb(244, 244, 247)
-    )
-    ,url(media/nosotros1.png);
-}
-
-.cardnos:nth-child(2){
-    background-image: linear-gradient(
-        0deg,
-        rgba(245, 243, 243, 0),
-        rgb(244, 244, 247)
-    )
-    ,url(media/nosotros1.png);
-}
-
-.cardnos:nth-child(3){
-    background-image: linear-gradient(
-        0deg,
-        rgba(245, 243, 243, 0),
-        rgb(244, 244, 247)
-    )
-    ,url(media/nosotros1.png);
+    ) 
+    ,url("media/nosotros2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 .cardnos:first-child h3 {
@@ -273,15 +250,8 @@ header {
 #final {
     background-color: rgb(30, 30, 30);
     color: white;
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url(media/first-card1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 #final h2 {
@@ -291,24 +261,24 @@ header {
 #final button{
     font-size: 5vh;
 }
-
-footer{
-    background-color: gray;
+.form{
+    width: 600px;
 }
 
-footer p{
+.Footer{
+    background-color: grey !important;
+    color: white !important;
     margin: 0%;
     padding: 12px;
-    color: blanchedalmond;
 }
 
-footer .container{
+/**footer .container{
     height: 150px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
-}
-@media (min-width: 720px){
+}*/
+/**@media (min-width: 720px){
 
     header{
         position: fixed;
@@ -325,7 +295,7 @@ footer .container{
         padding-bottom: 0%;
         padding-right: 20px;
     }
-}
+}*/
 
 #first-card h1 {
     font-size: 5em;
@@ -353,32 +323,6 @@ footer .container{
 
 }
 
-.cardnos:first-child{
-    background-image: linear-gradient(
-        0deg,
-        rgba(245, 243, 243, 0),
-        rgb(244, 244, 247)
-        )
-    ,url(media/nosotros1.png);
-}
-
-.cardnos:nth-child(2){
-    background-image: linear-gradient(
-        0deg,
-        rgba(245, 243, 243, 0),
-        rgb(244, 244, 247)
-    )
-    ,url(media/nosotros1.png);
-}
-
-.cardnos:nth-child(3){
-    background-image: linear-gradient(
-        0deg,
-        rgba(245, 243, 243, 0),
-        rgb(244, 244, 247)
-    )
-    ,url(media/nosotros1.png);
-}
 
 #nuestros-programas .programas{
     display: flex;
@@ -402,32 +346,6 @@ footer .container{
 
 }
 
-.card:first-child{
-    background-image: linear-gradient(
-        0deg,
-        rgba(245, 243, 243, 0),
-        rgb(244, 244, 247)
-        )
-    ,url(media/front.jpg);
-}
-
-.card:nth-child(2){
-    background-image: linear-gradient(
-        0deg,
-        rgba(245, 243, 243, 0),
-        rgb(244, 244, 247)
-    )
-    ,url(media/fullstack.jpg);
-}
-
-.card:nth-child(3){
-    background-image: linear-gradient(
-        0deg,
-        rgba(245, 243, 243, 0),
-        rgb(244, 244, 247)
-    )
-    ,url(media/Python.jpg);
-}
 
 #caracteristicas{
     background-repeat: no-repeat;
