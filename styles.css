@@ -131,7 +131,7 @@ header {
         0deg,
         rgba(245, 243, 243, 0),
         rgb(244, 244, 247)
-    ) 
+    )
     ,url("media/nosotros2.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -261,6 +261,11 @@ header {
 #final button{
     font-size: 5vh;
 }
+
+.form {
+    margin: 0 auto;
+}
+
 .form{
     width: 600px;
 }

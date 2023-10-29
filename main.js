@@ -1,7 +1,7 @@
 function guardar() {
     let nombre = document.getElementById("nombreIngresado").value;
     let apellido = document.getElementById("apellidoIngresado").value;
-    let email = document.getElementById("emailIngresado");
+    let email = document.getElementById("emailIngresado").value;
     let dni = document.getElementById("dniIngresado").value;
     let celular = document.getElementById("celularIngresado").value;
     let curso = document.getElementById("cursoIngresado").value;
