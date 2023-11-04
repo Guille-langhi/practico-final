@@ -306,7 +306,7 @@ header {
     font-size: 5em;
 }
 
-#nosotros .nosotros1{
+#nosotros .nosotros{
     display: flex;
     justify-content: center;
 }
@@ -400,8 +400,27 @@ header {
 
 
 
-@media (min-width: 1200px){
-#caracteristicas{
-    background-position-x: calc(100vw - 800px);
+
+@media screen and (max-width: 768px){
+*{
+    overflow-x: hidden;
 }
+
+    #nosotros .nosotros{
+      display:block;
+    }
+    
+    #nosotros p{
+     display: block;
+    }
+    
+    #nosotros h3{
+       display: block;
+    }
+    
+    #nosotros .cardnos{
+    display:block;
+   
+    }
+
 }
