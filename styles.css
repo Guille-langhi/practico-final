@@ -409,18 +409,18 @@ header {
     #nosotros .nosotros{
       display:block;
     }
-    
+
     #nosotros p{
      display: block;
     }
-    
+
     #nosotros h3{
        display: block;
     }
-    
+
     #nosotros .cardnos{
     display:block;
-   
+
     }
 
 
@@ -428,19 +428,19 @@ header {
     #nuestros-programas .programas{
     display: block;
     }
-    
+
     #nuestros-programas p{
         display: block;
         margin-bottom: 30px;
     }
-    
+
     #nuestros-programas h3{
         margin-top: 0;
     }
-    
+
     #nuestros-programas .card{
         display: block;
-    
+
     }
 
 
